@@ -13,18 +13,19 @@ Analiza el código de la aplicación y Genera un reporte en Excel con lo siguien
 
 Reglas de análisis:
 * El reporte de inventarios del contenido y hojas de Excel deben ser en inglés, de la misma manera Generar un archivo Excel con una hoja Categoría en lugar de crear un único archivo con todo. Por Ejemplo:
-Inventario de Archivos - Hoja FilesReport
-Inventario de Queries - Hoja QueriesReport
-Formato: 
+
+* Inventario de Archivos - Hoja FilesReport
+* Inventario de Queries - Hoja QueriesReport
+  * Formato: 
 QueryName | DB Table | File:Line | Execution Count | Data Source | SQL Query | Complexity
-Inventario de: requires - Hoja phpRequiresReport
-Inventario de: includes - Hoja phpIncludesReport
-Inventario de: calls - Hoja phpCallsReport
-Inventario de: function - Hoja phpFunctionsReport
-Inventario de: class - Hoja phpClassesReport
-Inventario de: inherit a trit:  - Hoja phpInheritsFromTritReport
-Inventario de: inherit a class:  - Hoja phpInheritFromClassReport
-Inventario de: implements an interface:  - Hoja phpImplementsReport
-Inventario de: Define an interface:  - Hoja phpInterfaceReport
+* Inventario de: requires - Hoja phpRequiresReport
+* Inventario de: includes - Hoja phpIncludesReport
+* Inventario de: calls - Hoja phpCallsReport
+* Inventario de: function - Hoja phpFunctionsReport
+* Inventario de: class - Hoja phpClassesReport
+* Inventario de: inherit a trit:  - Hoja phpInheritsFromTritReport
+* Inventario de: inherit a class:  - Hoja phpInheritFromClassReport
+* Inventario de: implements an interface:  - Hoja phpImplementsReport
+* Inventario de: Define an interface:  - Hoja phpInterfaceReport
 
 Generando así un archivo Excel “IX_CodeAnalysis_$TimeStamp$.xlsx con 11 hojas/reportes, en caso de no encontrar contenido para alguno de los archivos no generar dicho reporte y notificar en el Log y consola.
